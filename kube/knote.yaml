@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: harbor.blackgallina.cat/build-service/tbs/knote:b4.20220126.054955
+          image: harbor.blackgallina.cat/build-service/tbs/knote@sha256:093b457c3a0fd3339351c99f19ad3c506fcf82ac751f14f3bfb9d14495104434
           ports:
             - containerPort: 8080
           env:
