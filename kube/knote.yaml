@@ -19,7 +19,7 @@ spec:
             - containerPort: 8080
           env:
             - name: MONGO_URL
-              value: mongodb://mongo.service.mesh:27017/dev
+              value: mongodb://mongo.knote:27017/dev
           imagePullPolicy: Always
 ---
 apiVersion: v1
