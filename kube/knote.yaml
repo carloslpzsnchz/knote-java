@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: harbor.blackgallina.cat/knote/knote-java:temurin
+          image: harbor.blackgallina.cat/knote/knote-java-temurin:1.0
           ports:
             - containerPort: 8080
           env:
